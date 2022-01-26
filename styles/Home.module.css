@@ -8,7 +8,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -40,11 +40,20 @@
 }
 
 .title {
-  margin: 0;
+  margin: 10px;
   line-height: 1.15;
+  font-size: 2rem;
+}
+.ptitle {
   font-size: 4rem;
 }
 
+.imgbrd {
+  margin-top: 30px;
+  border: 10px solid #3d3c3c;
+  width: 600px;
+  box-shadow: 10px 10px 8px 10px #888888;
+}
 .title,
 .description {
   text-align: center;
